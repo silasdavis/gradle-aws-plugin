@@ -17,11 +17,11 @@ apply plugin: 'license'
 defaultTasks 'clean', 'build'
 
 // ======== deployment options (dispatched on group name) ========
-group = 'jp.classmethod.aws'
-version = '0.13-SNAPSHOT'
+group = 'TouchType'
+version = '0.14'
 
 ext {
-	artifactId = 'gradle-aws-plugin'
+	artifactId = 'TouchType'
 	defaultEncoding = 'UTF-8'
 }
 
